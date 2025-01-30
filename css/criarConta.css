@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(219, 219, 219);
+}
+main{
+    background-color: rgb(134, 169, 229);
+    border: 1px solid black;
+    max-width: 368px;
+    height: 80vh;
+    margin: 5% auto;
+    border-radius: 15px;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 5vh auto;
+    gap: 13px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin: 12% auto;
+    gap: 5px;
+}
+
+input{
+    width: 76%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 13px;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.dataNascimento{
+    width: 50%;
+    margin: 0 auto;
+}
+
+p{
+   margin-left: 15px;
+}
+
+.pCentro{
+    display: flex;
+    margin: 0 auto;
+}
+.btn-criar-conta{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 155px;
+    height: 30px;
+    background-color: rgb(20, 90, 0);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+a{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(40, 39, 39)
+}
+
+.btn-criar-conta .ativa{
+    background-color: rgb(10, 47, 0);
+    color: rgb(104, 104, 104);
+    border: none;
+    cursor: pointer;
+}
