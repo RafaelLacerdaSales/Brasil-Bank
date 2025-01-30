@@ -6,7 +6,7 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(141, 141, 141);
 }
 .box-Senha{
     display: flex;
@@ -23,13 +23,15 @@ input{
 }
 
 h2{
-    margin-bottom: 10px;
+    position: relative;
+    bottom: 2vh;
     font-size: 30px;
 }
 .btn-Senha{
-    margin-top: 5px;
+    position: relative;
+    top:2vh ;
     background-color: green;
-    padding: 3px;
+    padding: 4px;
     width: 100px;
     color: whitesmoke;
     border: none;
@@ -39,7 +41,8 @@ a{
     cursor: pointer;
     display: flex;
     justify-content: center;
-    margin-top: 5px;
     font-size: 13px;
-    color: rgb(40, 39, 39)
+    color: rgb(40, 39, 39);
+    position: relative;
+    top:3vh;
 }
