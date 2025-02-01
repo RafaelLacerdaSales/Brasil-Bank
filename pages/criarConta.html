@@ -10,24 +10,33 @@
     <main>
         <h1 class="h1">criar</h1>
         <form>
-            <input type="email" name="" id="" placeholder="Digite o E-mail" required>
+            <input type="email" name="" id="formulario_email" placeholder="Digite o E-mail" required >
 
-            <input type="password" name="" id="" placeholder="Criar senha" required>
+            <input type="password" name="" id="formulario_senha_um" placeholder="Criar senha" required >
 
-            <input type="password" name="" id="" placeholder="Confirmar Senha" required>
+            <input type="password" name="" id="formulario_senha_dois" placeholder="Confirmar Senha" required >
 
-            <input type="text" name="" id="" placeholder="Digite o CPF" required>
+            <input type="text" name="" id="formulario_CPF" placeholder="Digite o CPF" required>
             
             <div class="dataNascimento">
                 <p>Data de nascimento</p>
-            <input type="date" name="" id="" required>
+            <input type="date" name="" id="formulario_data" required>
 
             </div>
             
-            <button class="btn-criar-conta ativa">Criar conta</button>
+            <button type="submit" class="btn-criar-conta ativa">Criar conta</button>
             <a href="/index.html">Fazer login</a>
         </form>
+
+        <div class="box_alert">
+    <p id="resultado__email"></p>
+    
+    <p id="resultado__confirmar_senha"></p>
+    <p id="resultado__cpf"></p>
+    <p id="resultado__data_nascimento"></p>
+    </div>
         
     </main>
+    <script type="module" src="/js/criarConta.js"></script>
 </body>
 </html>

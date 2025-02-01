@@ -88,3 +88,23 @@ a{
     border: none;
     cursor: pointer;
 }
+
+.box_alert{
+text-align: center;
+position: relative;
+bottom: 40vh;
+right: 30vh;
+height:40vh;
+/* z-index: -1; */
+}
+
+.box_alert p{
+    padding-top: 12px;
+    font-size: 22px;
+}
+
+#resultado__data_nascimento{
+    position: relative;
+    top: 3vh;
+}
+

@@ -19,6 +19,8 @@ body{
 position: relative;
 bottom: 9vh;
 left: 1vh;
+font-family: "Bebas Neue", serif;  /*fonte-login */
+font-weight: 400;     
 }
 .texto-login{
     text-align: center;
