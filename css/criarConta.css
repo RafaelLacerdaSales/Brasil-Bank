@@ -90,17 +90,26 @@ a{
 }
 
 .box_alert{
-text-align: center;
-position: relative;
-bottom: 40vh;
-right: 30vh;
-height:40vh;
-/* z-index: -1; */
+
+max-width: 40vh;
+    height: 40vh;
+    border-radius: 50px;
+    position: relative;
+    bottom: 42vh;
+    right: 40vh;
 }
 
 .box_alert p{
-    padding-top: 12px;
-    font-size: 22px;
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-family: "IBM Plex Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-variation-settings:
+    "wdth" 87.5;
 }
 
 #resultado__data_nascimento{
